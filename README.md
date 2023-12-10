@@ -25,10 +25,15 @@ Create visualizations that are easy to understand and communicate the findings f
 
 ## Notebook Structure
 Reading the data
+
 Data Wrangling
+
 Exploratory Data Analysis
+
 Data Processing
+
 Conclusions
+
 Recommendations
 
 ## Data Understanding
@@ -52,12 +57,22 @@ The database contains 8 tables which are:
 
     - Movie_akas table – Contains the various other names movies were referred to as 
 
+In addition to the above data, data from The Numbers which is a film industry data websites was downloaded. It contains budget and gross
+earnings of the movies in addition to data from IMDB downloaded earlier
+
 ## Methodology
 
 ### - Data Wrangling
 Out of the various datasets that were collected, only a few would be used. Data from the data sets were also selectively picked to ensure that we used only what we needed. Null or missing values were also dropped or filled with suitable alternatives to ensure the integrity of the data. Data was also converted into different data types to enable us to draw meaningful information from it
 
-## Conclusions
+### 9. Conlusion
+    - Most movie production studios release movies in the Drama genre. This is seen clearly as Drama is the leading genre in   terms quantity of release
+    
+    - The movie genre with the highest highest ratings in terms of number of votes and rating per vote is Action,Adventure,Fantasy
+
+    -Although Action,Adventure,Fantasy has the highest ratings, movie studios are putting more funds into Action,Adventure,Sci-Fi which ranks second in terms of user ratings
+    
+    - The highest gross profit generating genre for movie studios is Action,Adventure,Sci-Fi
 
 
 ## Recommendations
