@@ -1,4 +1,4 @@
-# Original Video Content Creation Data Analysis
+# Video Content Creation Data Analysis
 
 ## Introduction
 Video Content is any content that uses video or a series of moving images to pass information. The most common forms of such however are movies and series. Over the years these forms of video content have grown in popularity and have become a great source of entertainment, information, and artistic creativity. This has made video content a medium through which we share our culture throughout the world.
@@ -41,21 +41,21 @@ The data used in this project was downloaded from IMDB which contains data from 
 
 The database contains 8 tables which are:
 
-    - Persons table – Contains information on the various people involved in the movies
+- Persons table – Contains information on the various people involved in the movies
 
-    - Principals tables – Contains the various work done on set or characters people played
+- Principals tables – Contains the various work done on set or characters people played
 
-    - Known_for table – What various movies people are associated with
+- Known_for table – What various movies people are associated with
 
-    - Directors table – Contains the names of the directors who worked on the movies
+- Directors table – Contains the names of the directors who worked on the movies
 
-    - Writers table – Contains the various writers who wrote scripts for the movies
+- Writers table – Contains the various writers who wrote scripts for the movies
 
-    - Movie_basics – Contains basic movie information 
+- Movie_basics – Contains basic movie information 
 
-    - Movie_ratings – Contains the various movie ratings and the number of people who rated them
+- Movie_ratings – Contains the various movie ratings and the number of people who rated them
 
-    - Movie_akas table – Contains the various other names movies were referred to as 
+- Movie_akas table – Contains the various other names movies were referred to as 
 
 In addition to the above data, data from The Numbers which is a film industry data websites was downloaded. It contains budget and gross
 earnings of the movies in addition to data from IMDB downloaded earlier
@@ -65,16 +65,22 @@ earnings of the movies in addition to data from IMDB downloaded earlier
 ### - Data Wrangling
 Out of the various datasets that were collected, only a few would be used. Data from the data sets were also selectively picked to ensure that we used only what we needed. Null or missing values were also dropped or filled with suitable alternatives to ensure the integrity of the data. Data was also converted into different data types to enable us to draw meaningful information from it
 
-### 9. Conlusion
-    - Most movie production studios release movies in the Drama genre. This is seen clearly as Drama is the leading genre in   terms quantity of release
-    
-    - The movie genre with the highest highest ratings in terms of number of votes and rating per vote is Action,Adventure,Fantasy
+### - Combining dataframes
+This is where we combine the data sets containing the data to be used. The dataset is then combined into one big dataset
 
-    -Although Action,Adventure,Fantasy has the highest ratings, movie studios are putting more funds into Action,Adventure,Sci-Fi which ranks second in terms of user ratings
+## Conclusion
+- Most movie production studios release movies in the Drama genre. This is seen clearly as Drama is the leading genre in   terms quantity of release
     
-    - The highest gross profit generating genre for movie studios is Action,Adventure,Sci-Fi
+- The movie genre with the highest highest ratings in terms of number of votes and rating per vote is Action,Adventure,Fantasy
+
+- Although Action,Adventure,Fantasy has the highest ratings, movie studios are putting more funds into Action,Adventure,Sci-Fi which ranks second in terms of user ratings
+    
+- The highest gross profit generating genre for movie studios is Action,Adventure,Sci-Fi
 
 
 ## Recommendations
+- The movie studio should put its resources towards producing Action,Adventure,Sci-Fi since it scores highly among user rating and is very profitable even though the margin has dipped recently
+
+- Due to the nature of the Action, Adventure,Sci-Fi genre with its high production budget averages, the movie studio should put resources into one project at a time to increase its chances of success of the project
 
 
